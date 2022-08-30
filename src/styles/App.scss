@@ -19,12 +19,15 @@
 }
 
 .output{
-  height: 80px;
+  height: 90px;
+  background: #111;
+  border-radius: 15px;
+  margin: 1rem;
 }
 
 .keys{
-  gap: 5px;
-  padding: 2.5rem;
+  gap: 10px;
+  padding: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -53,11 +56,6 @@
   display: block;
   font-size: 40px;
   text-align: right;
-}
-.input{
-  background-color: #111;
-  padding: 1rem;
-  border-radius: 15px;
 }
 
 button{
